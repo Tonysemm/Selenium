@@ -1,0 +1,10 @@
+D:\Projects\Selenium\Selenium\bin\Debug\Selenium.dll
+D:\Projects\Selenium\Selenium\bin\Debug\Selenium.pdb
+D:\Projects\Selenium\Selenium\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projects\Selenium\Selenium\bin\Debug\WebDriver.dll
+D:\Projects\Selenium\Selenium\bin\Debug\WebDriver.xml
+D:\Projects\Selenium\Selenium\obj\Debug\Selenium.dll
+D:\Projects\Selenium\Selenium\obj\Debug\Selenium.pdb
+D:\Projects\Selenium\Selenium\bin\Debug\WebDriver.Support.dll
+D:\Projects\Selenium\Selenium\bin\Debug\WebDriver.Support.xml
+D:\Projects\Selenium\Selenium\obj\Debug\Selenium.csprojResolveAssemblyReference.cache
