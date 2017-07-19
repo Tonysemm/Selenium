@@ -23,18 +23,6 @@ namespace Selenium
             Assert.AreEqual(Driver.Url, path + "#/main");
         }
 
-        [TestCategory("LoginTest"), TestMethod]
-        public void WrongAuthorizeTest()
-        {
-            Driver = (Driver == null) ? TestHelper.Launch() : Driver;
-
-            Authorize("631800107", "1");
-            //Явное ожидание, пока не загрузится кнопка
-            new WebDriverWait(Driver, TimeSpan.FromSeconds(30)).Until<IWebElement>(ExpectedConditions.ElementToBeClickable(By.XPath("//*[@id='ngdialog2 - aria - describedby']/footer/button")));
-            var button = Driver.FindElement(By.XPath("//*[@id='ngdialog2 - aria - describedby']/footer/button"));
-            Assert.IsNotNull(button);
-        }
-
         // Метод для авторизации
         public static void Authorize(string login, string password)
         {

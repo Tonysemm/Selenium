@@ -22,7 +22,9 @@ namespace Selenium.Modules.Insurer
         [TestCategory("Insurer_PersonalInfo"), TestMethod]
         public void Insurer_PersonalInfoTestMethod()
         {
-            Driver.FindElement(By.XPath("//*[@id='app']/ui-view/section/header/button[1]")).Click();
+            var info = DataSet.ReadExcel<PersonalData>();
+
+
         }
     }
 }
