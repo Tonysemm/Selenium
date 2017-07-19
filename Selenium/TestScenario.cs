@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Selenium.DataSet;
 
 namespace Selenium
 {
@@ -12,13 +13,17 @@ namespace Selenium
     [TestClass]
     public abstract class TestScenario
     {
+        public static string path = "http://ictas.github.io/TAD/";
         public static ChromeDriver Driver { get; protected set; }
         public static BaseTests BaseTest { get; protected set; }
-        public static string path = "http://ictas.github.io/TAD/";
+        //public DataSet dataSet { get; set; }
+        
 
         [TestInitialize()]
         public virtual void StartApplication()
         {
+            //dataSet = new DataSet();
+            //dataSet.ReadExcel<PersonalData>();
             BaseTest = new BaseTests();
             BaseTest.StartApplication();
         }

@@ -8,3 +8,4 @@ D:\Projects\Selenium\Selenium\obj\Debug\Selenium.pdb
 D:\Projects\Selenium\Selenium\bin\Debug\WebDriver.Support.dll
 D:\Projects\Selenium\Selenium\bin\Debug\WebDriver.Support.xml
 D:\Projects\Selenium\Selenium\obj\Debug\Selenium.csprojResolveAssemblyReference.cache
+D:\Projects\Selenium\Selenium\obj\Debug\Selenium.csproj.ResolveComReference.cache
